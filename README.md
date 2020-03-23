@@ -55,4 +55,10 @@ sudo apt-get install texlive-xetex
 ### 8. 安装texstudio编辑器
 ```
 sudo apt-get install texstudio
+
+```
+### 9.模板
+```
+http://www.latextemplates.com/
+
 ```
