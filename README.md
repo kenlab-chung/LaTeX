@@ -31,7 +31,8 @@ sudo apt-get install texlive-lang-chinese
 
 ### 6. 使用更多软件包和字体进行更完整的安装
 ```
-sudo apt-get install texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-fonts-recommended
+sudo apt-get install texlive-latex-base texlive-latex-extra 
+texlive-latex-recommended texlive-fonts-recommended
 ```
 ### 7. 安装XeLatex
 ```
