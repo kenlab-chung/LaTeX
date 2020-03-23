@@ -17,12 +17,26 @@ sudo apt-get install perl-tk
 ```
 sudo mount -o loop texlive2018.iso /mnt
 ```
-### 4. 启动图形化安装界面
+### 4. 
 ```
 cd /mnt
 sudo ./install-tl -gui
 ```
-点击安装即可
+点击安装即可。
+
+配置环境变量
+具体方法：
+```
+sudo gedit ~/.bashrc
+```
+
+在最后添加以下内容：
+```
+export MANPATH=${MANPATH}:/usr/local/texlive/2019/texmf-dist/doc/man
+export INFOPATH=${INFOPATH}:/usr/local/texlive/2019/texmf-dist/doc/info
+export PATH=${PATH}:/usr/local/texlive/2019/bin/x86_64-linux
+```
+然后`ctrl + s`保存退出，输入`source ~/.bashrc`使更改生效。
 
 ### 5. 中文支持，需要使用\usepackage{xeCJK}包，需安装
 ```
