@@ -17,7 +17,7 @@ sudo apt-get install perl-tk
 ```
 sudo mount -o loop texlive2018.iso /mnt
 ```
-### 4. 
+### 4.安装texlive 
 ```
 cd /mnt
 sudo ./install-tl -gui
